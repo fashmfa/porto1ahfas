@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nahidh Ahfash Mu'afa, S.Sos - Portofolio Profesional</title>
+  
+  <!-- SEO & OpenGraph Metadata -->
+  <meta name="description" content="Portofolio resmi Nahidh Ahfash Mu'afa, S.Sos - Camera Person, Videografer, Fotografer, Operator Live Streaming & Video Editor.">
+  <meta name="author" content="Nahidh Ahfash Mu'afa">
+  <link rel="icon" type="image/png" href="assets/navbar_logo.png">
+
+  <!-- Typography: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            obsidian: '#040813',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-obsidian text-slate-100 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Scroll Progress Bar -->
+  <div id="scrollProgress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Interactive Ambient Cursor Follower Glow -->
+  <div id="ambientCursorGlow" class="ambient-cursor-glow" aria-hidden="true"></div>
+
+  <!-- Background Ambient Glow Accents -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-mid" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+       TOP FLOATING NAVBAR
+       ======================================================================== -->
+  <header class="fixed top-5 inset-x-0 z-50 px-4">
+    <div class="nav-container max-w-6xl mx-auto flex items-center justify-between">
+      
+      <!-- Logo Brand (Revisi Logo Fotografash Transparan) -->
+      <a href="#tentang" class="brand-link flex items-center gap-2 group" aria-label="Beranda Fotografash">
+        <img src="assets/navbar_logo.png" alt="Fotografash - ora didokumentasi ora abadi" class="h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+      </a>
+
+      <!-- Center Navigation Capsule -->
+      <nav class="nav-capsule hidden md:flex items-center" aria-label="Navigasi Utama">
+        <a href="#tentang" class="nav-link active">Tentang</a>
+        <a href="#pendidikan-pengalaman" class="nav-link">Pendidikan &amp; Pengalaman</a>
+        <a href="#portofolio" class="nav-link">Portofolio</a>
+        <a href="#karya-fotografi" class="nav-link">Karya Fotografi</a>
+        <a href="#dokumentasi" class="nav-link">Dokumentasi</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <!-- Action: Quick Contact CTA -->
+      <div class="flex items-center gap-3">
+        <a href="#kontak" class="btn-nav-cta hidden sm:inline-flex items-center gap-2 px-5 py-2 rounded-full font-semibold text-xs text-white transition-all duration-300 hover:scale-105">
+          <span>Hubungi Saya</span>
+          <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="btnMobileMenu" class="md:hidden p-2 rounded-xl bg-slate-800/80 text-white border border-slate-700/80 shadow-md" aria-label="Buka menu navigasi">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="mobile-drawer hidden md:hidden mt-3 mx-auto max-w-sm">
+      <nav class="flex flex-col p-4 gap-2 rounded-2xl bg-[#0e1726]/95 border border-slate-700/60 shadow-2xl backdrop-blur-xl">
+        <a href="#tentang" class="mobile-nav-link">Tentang</a>
+        <a href="#pendidikan-pengalaman" class="mobile-nav-link">Pendidikan &amp; Pengalaman</a>
+        <a href="#portofolio" class="mobile-nav-link">Portofolio</a>
+        <a href="#karya-fotografi" class="mobile-nav-link">Karya Fotografi</a>
+        <a href="#keahlian" class="mobile-nav-link">Keahlian &amp; Perangkat</a>
+        <a href="#dokumentasi" class="mobile-nav-link">Dokumentasi</a>
+        <a href="#kontak" class="mobile-nav-link font-semibold text-sky-400">Hubungi Saya</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HERO SECTION
+       ======================================================================== -->
+  <main>
+    <section id="tentang" class="hero-section relative min-h-screen flex items-center pt-28 pb-16 px-4 md:px-8">
+      <div class="max-w-6xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Hero Left Column -->
+        <div class="lg:col-span-4 flex flex-col justify-center text-left space-y-6 z-10 animate-fade-in-up">
+          <div>
+            <h1 class="hero-title text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight">
+              Nahidh Ahfash<br>
+              <span class="text-white">Mu'afa, S.Sos</span>
+            </h1>
+          </div>
+
+          <!-- Roles Pill Capsule -->
+          <div class="role-pill p-4 rounded-2xl bg-[#131f31]/80 border border-slate-700/60 backdrop-blur-md shadow-lg transition-transform duration-300 hover:scale-[1.02]">
+            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-medium">
+              Camera Person, Videografer, Fotografer,<br>
+              Operator Live Streaming &amp; Edior Video
+            </p>
+          </div>
+
+          <!-- CTA Button -->
+          <div>
+            <a href="#portofolio" class="btn-primary inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-white shadow-lg shadow-sky-900/30 transition-all duration-300 hover:scale-105 active:scale-95">
+              <span>Lihat Portofolio</span>
+              <i data-lucide="play" class="w-4 h-4 fill-white"></i>
+            </a>
+          </div>
+
+          <!-- Bottom Left Certification Tag -->
+          <div class="pt-2">
+            <span class="badge-tag inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs tracking-wider text-slate-300 font-semibold uppercase bg-slate-800/60 border border-slate-700/60">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              Berstifikasi BNSP
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Center Photo Column (Lively Float Animation) -->
+        <div class="lg:col-span-4 flex justify-center items-end relative z-10 my-4 lg:my-0">
+          <div class="hero-photo-wrapper relative w-full flex justify-center">
+            <!-- Center Radial Ambient Light -->
+            <div class="hero-photo-halo" aria-hidden="true"></div>
+            
+            <img src="assets/hero_nahidh.png" 
+                 alt="Nahidh Ahfash Mu'afa, S.Sos - Camera Person &amp; Visual Producer" 
+                 class="hero-photo max-h-[660px] sm:max-h-[720px] lg:max-h-[780px] xl:max-h-[820px] w-auto object-contain mx-auto transition-transform duration-700">
+          </div>
+        </div>
+
+        <!-- Hero Right Bio Column -->
+        <div class="lg:col-span-4 flex flex-col justify-center text-left space-y-6 z-10 lg:pl-4 animate-fade-in-up delay-100">
+          <div class="bio-card p-6 rounded-2xl bg-[#0f1b2b]/70 border border-slate-800/80 backdrop-blur-md shadow-2xl transition-transform duration-300 hover:scale-[1.02]">
+            <p class="text-sm text-slate-200 leading-relaxed font-normal">
+              Lulusan Komunikasi &amp; Penyiaran Islam UIN Walisongo (IPK 3,75) dengan pengalaman di penyiaran TV, media digital, dan eksekusi produksi independen bersama Fotografash. Siap menghadirkan sinematografi, live streaming, dan video editing berkualitas tinggi untuk kebutuhan institusi maupun komersial
+            </p>
+          </div>
+
+          <!-- Bottom Right Founder Tag -->
+          <div class="pt-2 flex justify-start lg:justify-end">
+            <span class="badge-tag inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs tracking-wider text-slate-300 font-semibold uppercase bg-slate-800/60 border border-slate-700/60">
+              Founder <strong class="text-white">Fotografash</strong>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PENDIDIKAN & PENGALAMAN SECTION
+         ======================================================================== -->
+    <section id="pendidikan-pengalaman" class="edu-exp-section py-20 px-4 md:px-8 relative z-10">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+        
+        <!-- Kolom Kiri: Pendidikan -->
+        <div class="w-full space-y-6">
+          <h2 class="section-heading text-2xl sm:text-3xl font-bold text-white tracking-tight flex items-center gap-2">
+            <span>Pendidikan</span>
+          </h2>
+
+          <div class="card-glass p-5 rounded-2xl flex items-center gap-4 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+            <div class="logo-box">
+              <img src="assets/logo_uin_new.png" alt="Logo UIN Walisongo Semarang" class="max-w-full max-h-full object-contain">
+            </div>
+            <div class="space-y-1">
+              <h3 class="font-bold text-white text-base leading-snug">
+                Universitas Islam Negeri Walisongo Semarang
+              </h3>
+              <p class="text-xs text-slate-400 leading-normal">
+                Komunikasi dan Penyiaran Islam | Fakultas Dakwah dan Komunikasi
+              </p>
+              <p class="text-xs font-semibold text-sky-400 pt-1">
+                2022 - 2026
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Kanan: Pengalaman -->
+        <div class="w-full space-y-6">
+          <h2 class="section-heading text-2xl sm:text-3xl font-bold text-white tracking-tight flex items-center gap-2">
+            <span>Pengalaman</span>
+          </h2>
+
+          <div class="space-y-4">
+            
+            <!-- Pengalaman 1: Jogja TV -->
+            <div class="card-glass p-5 rounded-2xl flex items-center gap-5 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+              <div class="logo-box">
+                <img src="assets/logo_jogjatv_new.png" alt="Logo Jogja TV" class="max-w-full max-h-full object-contain">
+              </div>
+              <div class="space-y-1">
+                <h3 class="font-bold text-white text-lg">Jogja TV</h3>
+                <p class="text-xs text-slate-300 font-medium">Camera Person</p>
+                <p class="text-xs text-slate-400">Des 2024 - Feb 2025</p>
+              </div>
+            </div>
+
+            <!-- Pengalaman 2: Walisongo TV -->
+            <div class="card-glass p-5 rounded-2xl flex items-center gap-5 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+              <div class="logo-box">
+                <img src="assets/logo_walisongotv_new.png" alt="Logo Walisongo TV" class="max-w-full max-h-full object-contain">
+              </div>
+              <div class="space-y-1">
+                <h3 class="font-bold text-white text-lg">Walisongo TV</h3>
+                <p class="text-xs text-slate-300 font-medium">Crew Live Streaming &amp; Post Production</p>
+                <p class="text-xs text-slate-400">2024 - 2025</p>
+              </div>
+            </div>
+
+            <!-- Pengalaman 3: UKM KORDAIS -->
+            <div class="card-glass p-5 rounded-2xl flex items-center gap-5 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+              <div class="logo-box">
+                <img src="assets/logo_kordais_real.png" alt="Logo UKM KORDAIS" class="max-w-full max-h-full object-contain">
+              </div>
+              <div class="space-y-1">
+                <h3 class="font-bold text-white text-lg">UKM KORDAIS</h3>
+                <p class="text-xs text-slate-300 font-medium">Koordinator Departemen Medinfo</p>
+                <p class="text-xs text-slate-400">2023 - 2024</p>
+              </div>
+            </div>
+
+            <!-- Pengalaman 4: Lazismu Jawa Tengah -->
+            <div class="card-glass p-5 rounded-2xl flex items-center gap-5 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+              <div class="logo-box">
+                <img src="assets/logo_lazismu_new.png" alt="Logo Lazismu Jawa Tengah" class="max-w-full max-h-full object-contain">
+              </div>
+              <div class="space-y-1">
+                <h3 class="font-bold text-white text-lg">Lazismu Jawa Tengah</h3>
+                <p class="text-xs text-slate-300 font-medium">Medinfo</p>
+                <p class="text-xs text-slate-400">2025 - 2026</p>
+              </div>
+            </div>
+
+            <!-- Pengalaman 5: Fotografash (Logo Baru Transparan) -->
+            <div class="card-glass p-5 rounded-2xl flex items-center gap-5 transition-all duration-300 hover:border-sky-500/40 hover:-translate-y-1">
+              <div class="logo-box">
+                <img src="assets/logo_fotografash_full.png" alt="Logo Fotografash" class="max-w-full max-h-full object-contain">
+              </div>
+              <div class="space-y-1">
+                <h3 class="font-bold text-white text-lg">Fotografash</h3>
+                <p class="text-xs text-slate-300 font-medium">Freelance Fotografer, Videografer, Editing</p>
+                <p class="text-xs text-slate-400">2025 - Sekarang</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         PORTOFOLIO SECTION (14 KARYA VIDEO)
+         ======================================================================== -->
+    <section id="portofolio" class="portfolio-section py-20 px-4 md:px-8 relative z-10">
+      <div class="max-w-6xl mx-auto space-y-12">
+        
+        <!-- Section Title -->
+        <div class="text-center space-y-2">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Portofolio
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-400">Kumpulan karya audiovisual sinematik, video profil, dan siaran langsung</p>
+        </div>
+
+        <!-- 14 Project Grid (3 Columns) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Video 1 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="bJmR5vVhCnY"
+                   data-video-url="https://youtu.be/bJmR5vVhCnY?si=7Lsv_K3FGV-GU2Ps"
+                   data-title="Di Balik Layar &quot;Sambangan&quot;"
+                   data-role="Cameramen"
+                   data-institution="Walisongo TV">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_01_sambangan.jpg" alt="Di Balik Layar Sambangan" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  Di Balik Layar "Sambangan"
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Walisongo TV</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 2 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="PBqvebKlWdI"
+                   data-video-url="https://youtu.be/PBqvebKlWdI?si=xGTUjefejdP8LL5L"
+                   data-title="Short Movie &quot;Salah Paham&quot;"
+                   data-role="Cameramen &amp; Editor"
+                   data-institution="Centra TV">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_02_salah_paham.jpg" alt="Short Movie Salah Paham" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  Short Movie "Salah Paham"
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen &amp; Editor</p>
+                  <p class="text-slate-400">Centra TV</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 3 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="PBTtjnu_tS8"
+                   data-video-url="https://youtu.be/PBTtjnu_tS8?si=tqh9dBLTHiMi6LvR"
+                   data-title="D'Bagindas &quot;Empat Mata&quot; Unofficial MV"
+                   data-role="Directure of Photography"
+                   data-institution="Sudut Ruang Picture">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_03_empat_mata.jpg" alt="D'Bagindas Empat Mata Unofficial MV" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  D'Bagindas "Empat Mata" Unofficial MV
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Directure of Photography</p>
+                  <p class="text-slate-400">Sudut Ruang Picture</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 4 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="i8at6KOV0DA"
+                   data-video-url="https://youtu.be/i8at6KOV0DA?si=285uma_CU7E3XGHS"
+                   data-title="Faculty of Sharia and Law UIN Walisongo Semarang Profile"
+                   data-role="Videografer &amp; Editor"
+                   data-institution="Humas UIN Walisongo">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_04_sharia.jpg" alt="Faculty of Sharia and Law UIN Walisongo Semarang Profile" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  Faculty of Sharia and Law UIN Walisongo Semarang Profile
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Videografer &amp; Editor</p>
+                  <p class="text-slate-400">Humas UIN Walisongo</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 5 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="-MfIcBEcs8Y"
+                   data-video-url="https://youtu.be/-MfIcBEcs8Y?si=ESBMRXLfiL1K8_3v"
+                   data-title="AFTER MOVIE PEDULI BENCANA ACEH SUMUT DAN SUMBAR"
+                   data-role="Videografer &amp; Editor"
+                   data-institution="Lazismu Jawa Tengah">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_06_bencana.jpg" alt="AFTER MOVIE PEDULI BENCANA ACEH SUMUT DAN SUMBAR" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  AFTER MOVIE PEDULI BENCANA ACEH SUMUT DAN SUMBAR
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Videografer &amp; Editor</p>
+                  <p class="text-slate-400">Lazismu Jawa Tengah</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 6 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="jiLP1VC3fOw"
+                   data-video-url="https://youtu.be/jiLP1VC3fOw?si=oclD1rpNdUb2YyLu"
+                   data-title="LAZISMU JAWA TENGAH GELAR TAKJIL FEST - BERITA TVMU JATENG"
+                   data-role="Cameramen"
+                   data-institution="Lazismu Jawa Tengah">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_07_takjil.jpg" alt="LAZISMU JAWA TENGAH GELAR TAKJIL FEST" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  LAZISMU JAWA TENGAH GELAR TAKJIL FEST - BERITA TVMU JATENG
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Lazismu Jawa Tengah</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 7 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="xBX0-JD-qQE"
+                   data-video-url="https://youtu.be/xBX0-JD-qQE?si=r0rB2_952DrwgVKz"
+                   data-title="Lazismu Jateng Salurkan Rp1,8 Miliar untuk Beasiswa Anak Yatim"
+                   data-role="Cameramen"
+                   data-institution="Lazismu Jawa Tengah">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_08_beasiswa.jpg" alt="Lazismu Jateng Salurkan Rp1,8 Miliar untuk Beasiswa Anak Yatim" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  Lazismu Jateng Salurkan Rp1,8 Miliar untuk Beasiswa Anak Yatim
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Lazismu Jawa Tengah</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 8 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="KKyY6hoEL84"
+                   data-video-url="https://youtu.be/KKyY6hoEL84?si=1RlWIvQGfC50013j"
+                   data-title="ACARA WISUDA PERIODE NOVEMBER 2025 UIN WALISONGO SEMARANG"
+                   data-role="Cameramen"
+                   data-institution="Walisongo TV">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_09_wisuda.jpg" alt="ACARA WISUDA PERIODE NOVEMBER 2025 UIN WALISONGO SEMARANG" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  ACARA WISUDA PERIODE NOVEMBER 2025 UIN WALISONGO SEMARANG
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Walisongo TV</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 9 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="hvAzQciVskc"
+                   data-video-url="https://www.youtube.com/live/hvAzQciVskc?si=2RBhKdJtpnqGmFQw"
+                   data-title="AFTER MOVIE SEKOLAH AMIL KELAS FUNDRAISIN"
+                   data-role="Videografer &amp; Editor"
+                   data-institution="Lazismu Jawa Tengah">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_05_amil.jpg" alt="AFTER MOVIE SEKOLAH AMIL KELAS FUNDRAISIN" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  AFTER MOVIE SEKOLAH AMIL KELAS FUNDRAISIN
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Videografer &amp; Editor</p>
+                  <p class="text-slate-400">Lazismu Jawa Tengah</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 10 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="hvAzQciVskc"
+                   data-video-url="https://www.youtube.com/live/hvAzQciVskc?si=2RBhKdJtpnqGmFQw"
+                   data-title="TAK TERLIHAT MOVIE"
+                   data-role="Cameramen"
+                   data-institution="Walisngo TV">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_10_tak_terlihat.jpg" alt="TAK TERLIHAT MOVIE" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  TAK TERLIHAT MOVIE
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Walisngo TV</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 11 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="7ujO9HHq4X0"
+                   data-video-url="https://www.youtube.com/live/7ujO9HHq4X0?si=nJA6Sn-y5xog9BwB"
+                   data-title="PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT"
+                   data-role="Cameramen"
+                   data-institution="Walisngo TV">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_11_puncak_bita_1.jpg" alt="PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Cameramen</p>
+                  <p class="text-slate-400">Walisngo TV</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 12 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="sxdCpe1yMrA"
+                   data-video-url="https://www.youtube.com/live/sxdCpe1yMrA?si=8s47x4gH2_Zwk4gZ"
+                   data-title="PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT"
+                   data-role="Operator Live Streaming"
+                   data-institution="Fotografash">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_12_puncak_bita_2.jpg" alt="PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  PUNCAK BITA UIN WALISONGO &amp; TAMBAKHARJO BERSHOLAWAT
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Operator Live Streaming</p>
+                  <p class="text-slate-400">Fotografash</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 13 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="UGjdzT5eg78"
+                   data-video-url="https://www.youtube.com/live/UGjdzT5eg78?si=O26vBubOCuHgMk_q"
+                   data-title="LIVE PENGAJIAN DAN SHOLAWAT UKM KORDAIS | 14 OKTOBER 2025"
+                   data-role="Operator Live Streaming"
+                   data-institution="Fotografash">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_13_kordais.jpg" alt="LIVE PENGAJIAN DAN SHOLAWAT UKM KORDAIS" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  LIVE PENGAJIAN DAN SHOLAWAT UKM KORDAIS | 14 OKTOBER 2025
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Operator Live Streaming</p>
+                  <p class="text-slate-400">Fotografash</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Video 14 -->
+          <article class="portfolio-card group card-glass overflow-hidden rounded-2xl flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2"
+                   data-video-id="gEQITmKb7xM"
+                   data-video-url="https://youtu.be/gEQITmKb7xM?si=FWSiS_KhebJ01EyR"
+                   data-title="KORDAIS GAYENG TO DIENG | VIDEO DOKUMENTER"
+                   data-role="Videografer &amp; Editor"
+                   data-institution="UKM KORDAIS">
+            <div class="thumb-container relative aspect-video w-full overflow-hidden bg-slate-900">
+              <img src="assets/thumb_14_dieng.jpg" alt="KORDAIS GAYENG TO DIENG | VIDEO DOKUMENTER" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="play-overlay absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div class="play-btn-circle w-14 h-14 rounded-full bg-red-600/90 flex items-center justify-center shadow-lg shadow-red-600/50">
+                  <i data-lucide="play" class="w-7 h-7 text-white fill-white ml-0.5"></i>
+                </div>
+              </div>
+            </div>
+            <div class="p-5 flex flex-col flex-1 justify-between space-y-3">
+              <div>
+                <h3 class="font-bold text-white text-base leading-snug group-hover:text-sky-300 transition-colors">
+                  KORDAIS GAYENG TO DIENG | VIDEO DOKUMENTER
+                </h3>
+                <div class="text-xs mt-1 space-y-0.5">
+                  <p class="text-slate-300 font-medium">Videografer &amp; Editor</p>
+                  <p class="text-slate-400">UKM KORDAIS</p>
+                </div>
+              </div>
+              <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-sky-400">
+                <span class="flex items-center gap-1 font-semibold group-hover:underline">Putar Video <i data-lucide="play-circle" class="w-4 h-4"></i></span>
+                <span class="text-slate-400 hover:text-white flex items-center gap-1">YouTube <i data-lucide="external-link" class="w-3.5 h-3.5"></i></span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         KARYA FOTOGRAFI SECTION (RAPI, SIMETRIS & HIGH-RES 1800X2700)
+         ======================================================================== -->
+    <section id="karya-fotografi" class="photography-wrapper py-14 px-4 md:px-8 relative z-10">
+      <div class="ice-container max-w-6xl mx-auto rounded-[2.5rem] sm:rounded-[3.5rem] p-6 sm:p-12 shadow-2xl">
+        
+        <!-- Section Title in Dark Text (Sesuai Desain Foto) -->
+        <div class="text-center mb-8 sm:mb-10">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-[#0a192f] tracking-tight">
+            Karya Fotografi
+          </h2>
+        </div>
+
+        <!-- 5-Column Symmetrical Photography Layout Matching Photo (Semua Kolom Sama Lebar) -->
+        <div class="photography-grid grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3.5 sm:gap-4 items-stretch">
+          
+          <!-- Column 1 (2 Photos Stacked) -->
+          <div class="col-span-1 flex flex-col gap-3.5 sm:gap-4">
+            <!-- Photo 1: Fariha Pink Kebaya -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_01_fariha.jpg"
+                 data-caption="Wisuda Fotografi - Portrait Hijab &amp; Kebaya Pink di Taman Kampus">
+              <img src="assets/photography/photo_01_fariha.jpg" alt="Foto Wisuda Outdoor" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+            <!-- Photo 3: Sunset Rooftop -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_03_sunset.jpg"
+                 data-caption="Wisuda Fotografi - Sesi Sunset Golden Hour Rooftop">
+              <img src="assets/photography/photo_03_sunset.jpg" alt="Foto Wisuda Sunset" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2 (2 Photos Stacked) -->
+          <div class="col-span-1 flex flex-col gap-3.5 sm:gap-4">
+            <!-- Photo 2: Kebaya Pink Tiang Lampu -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_02_pillar.jpg"
+                 data-caption="Wisuda Fotografi - Komposisi Arsitektur Gedung Kampus">
+              <img src="assets/photography/photo_02_pillar.jpg" alt="Foto Wisuda Arsitektur" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+            <!-- Photo 4: Toga Huruf Walisongo -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_04_walisongo.jpg"
+                 data-caption="Wisuda Fotografi - Huruf Landmark UIN Walisongo">
+              <img src="assets/photography/photo_04_walisongo.jpg" alt="Foto Wisuda Landmark" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 3: Center Prominent Hero Photo (Taller, Matching Border Blue di Foto) -->
+          <div class="col-span-2 sm:col-span-1 flex flex-col h-full">
+            <div class="photo-card-hero rounded-2xl overflow-hidden cursor-pointer shadow-2xl group relative h-full w-full min-h-[300px] border-2 border-[#0077ff]"
+                 data-photo-src="assets/photography/photo_center_hero.jpg"
+                 data-caption="Karya Fotografi Utama - Perspektif Dramatis Toga &amp; Lambang UIN Walisongo">
+              <img src="assets/photography/photo_center_hero.jpg" alt="Karya Fotografi Utama" class="w-full h-full object-cover rounded-2xl transition-transform duration-700 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/90 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 4 (2 Photos Stacked) -->
+          <div class="col-span-1 flex flex-col gap-3.5 sm:gap-4">
+            <!-- Photo 5: Kebaya Jendela Kaca -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_05_window.jpg"
+                 data-caption="Wisuda Fotografi - Pencahayaan Natural Jendela Kaca">
+              <img src="assets/photography/photo_05_window.jpg" alt="Foto Wisuda Interior" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+            <!-- Photo 7: Kebaya Putih Jalanan Kampus -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_07_street.jpg"
+                 data-caption="Wisuda Fotografi - Candid Jalanan Kampus Suasana Asri">
+              <img src="assets/photography/photo_07_street.jpg" alt="Foto Wisuda Candid" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 5 (2 Photos Stacked) -->
+          <div class="col-span-1 flex flex-col gap-3.5 sm:gap-4">
+            <!-- Photo 6: Kebaya Pink Jembatan / Daun Rindang -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_06_bridge.jpg"
+                 data-caption="Wisuda Fotografi - Nuansa Alam Hijau Rindang di Jembatan">
+              <img src="assets/photography/photo_06_bridge.jpg" alt="Foto Wisuda Nature" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+            <!-- Photo 8: Kebaya Putih Pintu Klasik -->
+            <div class="photo-card rounded-2xl overflow-hidden cursor-pointer shadow-md group relative aspect-[3/4]"
+                 data-photo-src="assets/photography/photo_08_door.jpg"
+                 data-caption="Wisuda Fotografi - Pintu Klasik Estetik">
+              <img src="assets/photography/photo_08_door.jpg" alt="Foto Wisuda Classic Door" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-105" loading="lazy">
+              <div class="photo-overlay absolute inset-0 bg-black/25 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <span class="p-2.5 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         KEAHLIAN TEKNIS & PERANGKAT SECTION
+         ======================================================================== -->
+    <section id="keahlian" class="skills-section py-20 px-4 md:px-8 relative z-10">
+      <div class="max-w-5xl mx-auto space-y-12">
+        
+        <!-- Section Title -->
+        <div class="text-center space-y-2 animate-on-scroll">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Keahlian Teknis &amp; Perangkat
+          </h2>
+        </div>
+
+        <!-- 3 Columns Layout -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+          
+          <!-- Column 1: Produksi Siaran -->
+          <div class="flex flex-col items-center md:items-start space-y-6">
+            <div class="pill-badge px-6 py-2.5 rounded-full bg-[#162235] border border-slate-700/80 text-white font-semibold text-sm shadow-md">
+              Produksi Siaran
+            </div>
+            <ul class="space-y-3.5 text-sm sm:text-base text-slate-200">
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Operassi Kamera</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Multi Camera</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Operator Live Streaming</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Videografer</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Editor</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Perangkat Lunak (Ikon Resmi HD) -->
+          <div class="flex flex-col items-center space-y-6">
+            <div class="pill-badge px-6 py-2.5 rounded-full bg-[#162235] border border-slate-700/80 text-white font-semibold text-sm shadow-md">
+              Perangkat Lunak
+            </div>
+            
+            <!-- Software Icons Grid (Matching Exact Visual From Figma) -->
+            <div class="flex flex-col items-center gap-4">
+              
+              <!-- Row 1: Ps, Pr, Ae, LrC -->
+              <div class="flex items-center gap-3.5">
+                <div class="tool-icon-box" title="Adobe Photoshop">
+                  <img src="assets/icons/icon_ps.png" alt="Adobe Photoshop" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="Adobe Premiere Pro">
+                  <img src="assets/icons/icon_pr.png" alt="Adobe Premiere Pro" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="Adobe After Effects">
+                  <img src="assets/icons/icon_ae.png" alt="Adobe After Effects" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="Adobe Lightroom Classic">
+                  <img src="assets/icons/icon_lrc.png" alt="Adobe Lightroom Classic" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+              </div>
+
+              <!-- Row 2: Lr, DaVinci Resolve, Figma, Canva -->
+              <div class="flex items-center gap-3.5">
+                <div class="tool-icon-box" title="Adobe Lightroom">
+                  <img src="assets/icons/icon_lr.png" alt="Adobe Lightroom" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="DaVinci Resolve">
+                  <img src="assets/icons/icon_resolve.png" alt="DaVinci Resolve" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="Figma">
+                  <img src="assets/icons/icon_figma.png" alt="Figma" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+                <div class="tool-icon-box" title="Canva">
+                  <img src="assets/icons/icon_canva.png" alt="Canva" class="w-12 h-12 object-contain rounded-xl">
+                </div>
+              </div>
+
+              <!-- Row 3: CapCut & OBS Studio -->
+              <div class="flex items-center gap-5 pt-1">
+                <div class="tool-icon-box" title="CapCut">
+                  <img src="assets/icons/icon_capcut.png" alt="CapCut" class="h-8 w-auto object-contain">
+                </div>
+                <div class="tool-icon-box" title="OBS Studio">
+                  <img src="assets/icons/icon_obs.png" alt="OBS Studio" class="w-12 h-12 object-contain rounded-full">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Column 3: Bahasa -->
+          <div class="flex flex-col items-center md:items-end space-y-6">
+            <div class="pill-badge px-8 py-2.5 rounded-full bg-[#162235] border border-slate-700/80 text-white font-semibold text-sm shadow-md">
+              Bahasa
+            </div>
+            <ul class="space-y-3.5 text-sm sm:text-base text-slate-200 text-left md:text-left">
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Indonesia</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Inggris</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <span>Arab</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         DOKUMENTASI SECTION (RAPI, BERSIH & FOTO ASLI ASET)
+         ======================================================================== -->
+    <section id="dokumentasi" class="documentation-section py-20 px-4 md:px-8 relative z-10">
+      <div class="max-w-6xl mx-auto space-y-10">
+        
+        <!-- Section Title -->
+        <div class="text-center space-y-2">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Dokumentasi
+          </h2>
+          <p class="text-xs sm:text-sm text-slate-400">Aktivitas di balik layar produksi film, pengoperasian kamera, liputan lapangan &amp; live streaming</p>
+        </div>
+
+        <!-- 10 High-Resolution Documentation Grid (Clean & Structured) -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          
+          <!-- Doc 1: Tim Sambangan Outdoor -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_01.jpg"
+               data-caption="Dokumentasi Produksi - Tim Produksi Film Sambangan di Set Outdoor">
+            <img src="assets/documentation/doc_01.jpg" alt="Dokumentasi Film Sambangan" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 2: Kamera Rig Indoor -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_02.jpg"
+               data-caption="Dokumentasi Produksi - Reviewing Cinema Camera Rig Bersama Kru">
+            <img src="assets/documentation/doc_02.jpg" alt="Review Footage Kamera" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 3: Live Switcher Room -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_03.jpg"
+               data-caption="Dokumentasi Produksi - Control Station Live Streaming (Switcher Atem Mini &amp; OBS)">
+            <img src="assets/documentation/doc_03.jpg" alt="Kontrol Siaran Live Streaming" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 4: Dual Cameraman Framing -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_04.jpg"
+               data-caption="Dokumentasi Produksi - Operator Kamera &amp; Asisten Pembingkaian Visual">
+            <img src="assets/documentation/doc_04.jpg" alt="Operator Kamera Set" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 5: Studio TV Broadcast Crew -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_05.jpg"
+               data-caption="Dokumentasi Produksi - Pengoperasian Kamera Studio On-Air Siaran">
+            <img src="assets/documentation/doc_05.jpg" alt="Studio TV Penyiaran" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 6: Briefing Liputan Lapangan -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_06.jpg"
+               data-caption="Dokumentasi Produksi - Briefing Tim Dokumentasi Lapangan">
+            <img src="assets/documentation/doc_06.jpg" alt="Briefing Liputan Lapangan" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 7: Live Monitor Close Up -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_07.jpg"
+               data-caption="Dokumentasi Produksi - Pemantauan Layar Kamera &amp; Kontrol Fokus">
+            <img src="assets/documentation/doc_07.jpg" alt="Layar Monitor Kamera" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 8: Gear & Audio Preparation -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_08.jpg"
+               data-caption="Dokumentasi Produksi - Persiapan Rig Kamera &amp; Perlengkapan Liputan">
+            <img src="assets/documentation/doc_08.jpg" alt="Persiapan Alat Kamera" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 9: Pascaproduksi Video Editing -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_09.jpg"
+               data-caption="Dokumentasi Produksi - Proses Editing Timeline di Adobe Premiere Pro">
+            <img src="assets/documentation/doc_09.jpg" alt="Proses Editing Video" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+          <!-- Doc 10: Pemotretan Rooftop Golden Hour -->
+          <div class="doc-item rounded-2xl overflow-hidden cursor-pointer shadow-lg group relative aspect-[4/3] bg-slate-900 border border-slate-800/80"
+               data-photo-src="assets/documentation/doc_10.jpg"
+               data-caption="Dokumentasi Produksi - Eksekusi Foto Wisuda Rooftop Saat Sunset">
+            <img src="assets/documentation/doc_10.jpg" alt="Sesi Foto Rooftop" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy">
+            <div class="doc-overlay absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <span class="p-2 rounded-full bg-white/80 text-slate-900 shadow-md"><i data-lucide="zoom-in" class="w-5 h-5"></i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         HUBUNGI SAYA SECTION (ICE-BLUE CONTAINER & DIRECT CLICK LINKS)
+         ======================================================================== -->
+    <section id="kontak" class="contact-wrapper py-16 px-4 md:px-8 relative z-10">
+      <div class="ice-container max-w-5xl mx-auto rounded-[2.5rem] sm:rounded-[3.5rem] p-6 sm:p-14 shadow-2xl">
+        
+        <!-- Section Title in Dark Text -->
+        <div class="text-center mb-8 sm:mb-10">
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-[#0a192f] tracking-tight">
+            Hubungi Saya
+          </h2>
+        </div>
+
+        <!-- Inner Card Matching Figma (Deeper Pastel Blue) -->
+        <div class="contact-inner-card rounded-3xl p-8 sm:p-12 shadow-lg border border-slate-900/5">
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+            
+            <!-- Left Side: Quote -->
+            <div class="md:col-span-5 text-left">
+              <h3 class="text-2xl sm:text-3xl font-extrabold text-[#0a192f] leading-tight">
+                Fotografash siap<br>
+                mengabadikan momen<br>
+                terindah kamu
+              </h3>
+            </div>
+
+            <!-- Center Divider Line (Hidden on mobile) -->
+            <div class="hidden md:flex md:col-span-1 justify-center">
+              <div class="w-[1.5px] h-36 bg-[#0a192f]/30"></div>
+            </div>
+
+            <!-- Right Side: Kirim Lewat Contact Info Matching Screenshot -->
+            <div class="md:col-span-6 text-left space-y-4">
+              <h4 class="text-xl sm:text-2xl font-bold text-[#0a192f]">
+                Kirim Lewat
+              </h4>
+              
+              <div class="space-y-3 text-base sm:text-lg text-[#0a192f]">
+                
+                <!-- Email -->
+                <div class="flex items-center">
+                  <span class="w-28 sm:w-32 shrink-0 text-[#0a192f]">Email</span>
+                  <span class="w-6 shrink-0 text-center text-[#0a192f]">:</span>
+                  <a href="mailto:ahfashmuafauinws@gmail.com" 
+                     class="hover:underline text-[#0a192f] break-all" 
+                     title="Kirim email ke ahfashmuafauinws@gmail.com">
+                    ahfashmuafauinws@gmail.com
+                  </a>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="flex items-center">
+                  <span class="w-28 sm:w-32 shrink-0 text-[#0a192f]">WhatsApp</span>
+                  <span class="w-6 shrink-0 text-center text-[#0a192f]">:</span>
+                  <a href="https://wa.me/6289531233800" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     class="hover:underline text-[#0a192f]"
+                     title="Chat WhatsApp ke +6289531233800">
+                    +6289531233800
+                  </a>
+                </div>
+
+                <!-- Instagram -->
+                <div class="flex items-center">
+                  <span class="w-28 sm:w-32 shrink-0 text-[#0a192f]">Instagram</span>
+                  <span class="w-6 shrink-0 text-center text-[#0a192f]">:</span>
+                  <a href="https://www.instagram.com/fashmfa_?mdxt=MWdvcjZrcW5pM28zcg==" 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     class="hover:underline text-[#0a192f]"
+                     title="Kunjungi Instagram @fashmfa_">
+                    @fashmfa_
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="py-8 px-4 border-t border-slate-800/80 text-center text-xs text-slate-400">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>&copy; 2026 Nahidh Ahfash Mu'afa, S.Sos. All Rights Reserved.</p>
+      <div class="flex items-center gap-4">
+        <a href="#tentang" class="hover:text-slate-200 transition-colors">Tentang</a>
+        <span>&bull;</span>
+        <a href="#portofolio" class="hover:text-slate-200 transition-colors">Portofolio</a>
+        <span>&bull;</span>
+        <a href="#karya-fotografi" class="hover:text-slate-200 transition-colors">Karya Fotografi</a>
+        <span>&bull;</span>
+        <a href="#dokumentasi" class="hover:text-slate-200 transition-colors">Dokumentasi</a>
+        <span>&bull;</span>
+        <a href="#kontak" class="hover:text-slate-200 transition-colors">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: VIDEO PLAYER (LIGHTBOX WITH EMBED + DIRECT YOUTUBE LINK)
+       ======================================================================== -->
+  <div id="videoModal" class="modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300" role="dialog" aria-modal="true" aria-labelledby="modalVideoTitle">
+    <div class="modal-content relative w-full max-w-4xl bg-slate-950 rounded-2xl border border-slate-800 overflow-hidden shadow-2xl scale-95 transition-transform duration-300">
+      
+      <!-- Modal Header -->
+      <div class="p-4 px-6 flex items-center justify-between border-b border-slate-800/80 bg-slate-900/60">
+        <div>
+          <h3 id="modalVideoTitle" class="text-base sm:text-lg font-bold text-white truncate max-w-md sm:max-w-xl">Judul Video</h3>
+          <p id="modalVideoMeta" class="text-xs text-slate-400">Role &amp; Institution</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <a id="btnModalOpenYouTube" href="#" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-red-600 hover:bg-red-500 text-white text-xs font-semibold shadow-md transition-colors">
+            <span>Tonton di YouTube</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+          <button id="btnCloseVideoModal" class="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-white hover:bg-slate-700 transition-colors" aria-label="Tutup video">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Video Embed Frame (16:9) -->
+      <div class="relative aspect-video w-full bg-black">
+        <iframe id="videoIframe" class="w-full h-full" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: PHOTO LIGHTBOX (HIGH-RESOLUTION VIEWER)
+       ======================================================================== -->
+  <div id="photoLightbox" class="modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 backdrop-blur-md opacity-0 pointer-events-none transition-opacity duration-300" role="dialog" aria-modal="true" aria-label="Penampil Foto Resolusi Penuh">
+    <button id="btnCloseLightbox" class="absolute top-6 right-6 p-2.5 rounded-full bg-white/10 text-white hover:bg-white/20 transition-colors z-20" aria-label="Tutup foto">
+      <i data-lucide="x" class="w-6 h-6"></i>
+    </button>
+    
+    <div class="lightbox-content max-w-5xl max-h-[85vh] flex flex-col items-center justify-center relative scale-95 transition-transform duration-300">
+      <img id="lightboxImg" src="" alt="Pratinjau Foto" class="max-w-full max-h-[78vh] object-contain rounded-xl shadow-2xl border border-white/10">
+      <p id="lightboxCaption" class="mt-4 text-center text-sm font-medium text-slate-200 px-5 py-2 rounded-full bg-black/70 backdrop-blur-md border border-white/10 shadow-lg"></p>
+    </div>
+  </div>
+
+  <!-- Custom JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
